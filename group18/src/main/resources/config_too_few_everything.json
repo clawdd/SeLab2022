@@ -1,0 +1,167 @@
+{
+  "maxPlayers": 3,
+  "years": 3,
+  "dungeonSideLength": 5,
+  "initialFood": 2,
+  "initialGold": 2,
+  "initialImps": 2,
+  "initialEvilness": 4,
+  "monsters": [
+    {
+      "id": 0,
+      "name": "Emberbug, The Nightmare Man",
+      "damage": 3,
+      "attackStrategy": "BASIC"
+    },
+    {
+      "id": 1,
+      "name": "Ghostfigure, The Primeval Hound",
+      "damage": 3,
+      "attackStrategy": "BASIC"
+    },
+    {
+      "id": 2,
+      "name": "Soilbeast, The Silver Hound",
+      "damage": 3,
+      "attackStrategy": "BASIC"
+    },
+    {
+      "id": 3,
+      "name": "Germman, The Primeval Man",
+      "damage": 3,
+      "attackStrategy": "BASIC"
+    },
+    {
+      "id": 4,
+      "name": "Embercat, The Big Bad Feline",
+      "damage": 3,
+      "attackStrategy": "BASIC"
+    },
+    {
+      "id": 5,
+      "name": "Webword, The Bruised Feline",
+      "damage": 3,
+      "attackStrategy": "BASIC"
+    },
+    {
+      "id": 6,
+      "name": "Brineword, The Quiet Feline",
+      "damage": 3,
+      "attackStrategy": "BASIC"
+    },
+    {
+      "id": 7,
+      "name": "Embercat, The Nightmare Mutant",
+      "damage": 3,
+      "attackStrategy": "BASIC"
+    }
+  ],
+  "adventurers": [
+    {
+      "id": 0,
+      "name": "Sapphire",
+      "difficulty": 1,
+      "healthPoints": 4
+    },
+    {
+      "id": 1,
+      "name": "Bulletproof",
+      "difficulty": 1,
+      "healthPoints": 4
+    },
+    {
+      "id": 2,
+      "name": "Scorch",
+      "difficulty": 1,
+      "healthPoints": 4
+    },
+    {
+      "id": 3,
+      "name": "Apex",
+      "difficulty": 1,
+      "healthPoints": 4
+    },
+    {
+      "id": 4,
+      "name": "Chromium",
+      "difficulty": 1,
+      "healthPoints": 4
+    },
+    {
+      "id": 5,
+      "name": "Mastermind",
+      "difficulty": 1,
+      "healthPoints": 4
+    },
+    {
+      "id": 6,
+      "name": "Miss Mantis",
+      "difficulty": 1,
+      "healthPoints": 4
+    }
+  ],
+  "traps": [
+    {
+      "id": 0,
+      "name": "Freezing Hammers",
+      "attackStrategy": "MULTI",
+      "damage": 1
+    },
+    {
+      "id": 1,
+      "name": "Thousand Hammers",
+      "attackStrategy": "MULTI",
+      "damage": 1
+    },
+    {
+      "id": 2,
+      "name": "Freezing Anvils",
+      "attackStrategy": "MULTI",
+      "damage": 1
+    },
+    {
+      "id": 3,
+      "name": "Flaming Spears",
+      "attackStrategy": "MULTI",
+      "damage": 1
+    },
+    {
+      "id": 4,
+      "name": "Deathly Spikes",
+      "attackStrategy": "MULTI",
+      "damage": 1
+    },
+    {
+      "id": 5,
+      "name": "Magnets of Despair",
+      "attackStrategy": "MULTI",
+      "damage": 1
+    }
+  ],
+  "rooms": [
+    {
+      "id": 0,
+      "name": "Kitchen",
+      "restriction": "LOWER_HALF",
+      "activation": 3
+    },
+    {
+      "id": 1,
+      "name": "Attic",
+      "restriction": "LOWER_HALF",
+      "activation": 3
+    },
+    {
+      "id": 2,
+      "name": "Foyer",
+      "restriction": "LOWER_HALF",
+      "activation": 3
+    },
+    {
+      "id": 3,
+      "name": "Theatre",
+      "restriction": "LOWER_HALF",
+      "activation": 3
+    }
+  ]
+}

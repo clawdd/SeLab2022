@@ -1,0 +1,1061 @@
+{
+    "maxPlayers": 4,
+    "years": 3,
+    "dungeonSideLength": 13,
+    "initialFood": 5,
+    "initialGold": 4,
+    "initialImps": 9,
+    "initialEvilness": 7,
+    "monsters": [
+        {
+            "id": 0,
+            "name": "Soilface, The Nightmare Man",
+            "damage": 3,
+            "attackStrategy": "TARGETED",
+            "hunger": 2,
+            "evilness": 1
+        },
+        {
+            "id": 1,
+            "name": "Vaporface, The Rotten Serpent",
+            "damage": 4,
+            "attackStrategy": "MULTI",
+            "hunger": 2
+        },
+        {
+            "id": 2,
+            "name": "Mucktree, The Sunshine Spider",
+            "damage": 3,
+            "attackStrategy": "TARGETED"
+        },
+        {
+            "id": 3,
+            "name": "Germfigure, The Primeval Gorilla",
+            "damage": 3,
+            "attackStrategy": "BASIC",
+            "hunger": 4,
+            "evilness": 2
+        },
+        {
+            "id": 4,
+            "name": "Smogfang, The Scared Spider",
+            "damage": 1,
+            "attackStrategy": "MULTI",
+            "evilness": 2
+        },
+        {
+            "id": 5,
+            "name": "Decaybug, The Needy Mutant",
+            "damage": 5,
+            "attackStrategy": "BASIC",
+            "hunger": 2,
+            "evilness": 3
+        },
+        {
+            "id": 6,
+            "name": "Youngga, The Crying Bat",
+            "damage": 3,
+            "attackStrategy": "BASIC",
+            "hunger": 4
+        },
+        {
+            "id": 7,
+            "name": "Germfigure, The Nightmare Serpent",
+            "damage": 1,
+            "attackStrategy": "BASIC",
+            "evilness": 1
+        },
+        {
+            "id": 8,
+            "name": "Curseword, The Silver Mutant",
+            "damage": 2,
+            "attackStrategy": "MULTI",
+            "hunger": 1,
+            "evilness": 2
+        },
+        {
+            "id": 9,
+            "name": "Abyssface, The Rotten Serpent",
+            "damage": 5,
+            "attackStrategy": "BASIC",
+            "hunger": 2,
+            "evilness": 3
+        },
+        {
+            "id": 10,
+            "name": "Ghostcat, The Raptor Hound",
+            "damage": 3,
+            "attackStrategy": "BASIC",
+            "evilness": 2
+        },
+        {
+            "id": 11,
+            "name": "Abyssling, The Silver Serpent",
+            "damage": 5,
+            "attackStrategy": "MULTI",
+            "hunger": 1,
+            "evilness": 4
+        },
+        {
+            "id": 12,
+            "name": "Soilface, The Nightmare Man",
+            "damage": 1,
+            "attackStrategy": "BASIC",
+            "hunger": 2
+        },
+        {
+            "id": 13,
+            "name": "Brineman, The Twin Hound",
+            "damage": 2,
+            "attackStrategy": "MULTI",
+            "evilness": 3
+        },
+        {
+            "id": 14,
+            "name": "Brinetalon, The Big Bad Mutant",
+            "damage": 4,
+            "attackStrategy": "BASIC",
+            "evilness": 1
+        },
+        {
+            "id": 15,
+            "name": "Soilface, The Bruised Hound",
+            "damage": 5,
+            "attackStrategy": "MULTI",
+            "hunger": 4,
+            "evilness": 3
+        },
+        {
+            "id": 16,
+            "name": "Emberword, The Bruised Hound",
+            "damage": 5,
+            "attackStrategy": "BASIC",
+            "hunger": 1
+        },
+        {
+            "id": 17,
+            "name": "Soilface, The Primeval Monster",
+            "damage": 1,
+            "attackStrategy": "TARGETED",
+            "hunger": 2,
+            "evilness": 1
+        },
+        {
+            "id": 18,
+            "name": "Deadeyes, The Silver Feline",
+            "damage": 4,
+            "attackStrategy": "BASIC",
+            "evilness": 4
+        },
+        {
+            "id": 19,
+            "name": "Decaycat, The Evasive Monster",
+            "damage": 3,
+            "attackStrategy": "BASIC",
+            "hunger": 1,
+            "evilness": 4
+        },
+        {
+            "id": 20,
+            "name": "Grossfigure, The Venom Dog",
+            "damage": 1,
+            "attackStrategy": "TARGETED"
+        },
+        {
+            "id": 21,
+            "name": "Vaporling, The Big Bad Man",
+            "damage": 2,
+            "attackStrategy": "TARGETED",
+            "evilness": 4
+        },
+        {
+            "id": 22,
+            "name": "Decayeyes, The Primeval Monster",
+            "damage": 4,
+            "attackStrategy": "MULTI",
+            "hunger": 2,
+            "evilness": 4
+        },
+        {
+            "id": 23,
+            "name": "Gloomboy, The Cursed Babbler",
+            "damage": 1,
+            "attackStrategy": "TARGETED",
+            "hunger": 3,
+            "evilness": 2
+        },
+        {
+            "id": 24,
+            "name": "Germtalon, The Nightmare Man",
+            "damage": 5,
+            "attackStrategy": "TARGETED",
+            "hunger": 3,
+            "evilness": 3
+        },
+        {
+            "id": 25,
+            "name": "Germling, The Primeval Critter",
+            "damage": 3,
+            "attackStrategy": "MULTI",
+            "hunger": 1
+        },
+        {
+            "id": 26,
+            "name": "Cursefigure, The Quiet Dog",
+            "damage": 5,
+            "attackStrategy": "BASIC",
+            "hunger": 3,
+            "evilness": 1
+        },
+        {
+            "id": 27,
+            "name": "Emberbug, The Nightmare Man",
+            "damage": 4,
+            "attackStrategy": "TARGETED",
+            "hunger": 1,
+            "evilness": 2
+        },
+        {
+            "id": 28,
+            "name": "Deadfigure, The Venom Dog",
+            "damage": 2,
+            "attackStrategy": "MULTI",
+            "hunger": 1,
+            "evilness": 4
+        },
+        {
+            "id": 29,
+            "name": "Abyssling, The Big Bad Man",
+            "damage": 4,
+            "attackStrategy": "BASIC",
+            "hunger": 1,
+            "evilness": 1
+        },
+        {
+            "id": 30,
+            "name": "Abysswing, The Bruised Feline",
+            "damage": 4,
+            "attackStrategy": "TARGETED",
+            "hunger": 2,
+            "evilness": 4
+        },
+        {
+            "id": 31,
+            "name": "Curseword, The Bruised Tumor",
+            "damage": 5,
+            "attackStrategy": "TARGETED",
+            "evilness": 2
+        },
+        {
+            "id": 32,
+            "name": "Ewwga, The Rainbow Monkey",
+            "damage": 3,
+            "attackStrategy": "MULTI",
+            "hunger": 4,
+            "evilness": 3
+        },
+        {
+            "id": 33,
+            "name": "Cursetalon, The Venom Hound",
+            "damage": 5,
+            "attackStrategy": "MULTI",
+            "hunger": 3,
+            "evilness": 1
+        },
+        {
+            "id": 34,
+            "name": "Germtalon, The Bruised Gorilla",
+            "damage": 1,
+            "attackStrategy": "TARGETED",
+            "hunger": 3
+        },
+        {
+            "id": 35,
+            "name": "Germbeast, The Evasive Serpent",
+            "damage": 4,
+            "attackStrategy": "MULTI",
+            "hunger": 4,
+            "evilness": 2
+        },
+        {
+            "id": 36,
+            "name": "Emberman, The Raptor Woman",
+            "damage": 5,
+            "attackStrategy": "BASIC",
+            "hunger": 4,
+            "evilness": 2
+        }
+    ],
+    "adventurers": [
+        {
+            "id": 0,
+            "name": "High Fructose",
+            "difficulty": 7,
+            "healthPoints": 5,
+            "defuseValue": 2
+        },
+        {
+            "id": 1,
+            "name": "Bulletproof",
+            "difficulty": 3,
+            "healthPoints": 2,
+            "defuseValue": 1
+        },
+        {
+            "id": 2,
+            "name": "Firefly",
+            "difficulty": 5,
+            "healthPoints": 3,
+            "defuseValue": 1,
+            "healValue": 1
+        },
+        {
+            "id": 3,
+            "name": "The Rooster",
+            "difficulty": 5,
+            "healthPoints": 5
+        },
+        {
+            "id": 4,
+            "name": "Ivory Wing",
+            "difficulty": 8,
+            "healthPoints": 6,
+            "defuseValue": 1,
+            "healValue": 1
+        },
+        {
+            "id": 5,
+            "name": "McMuscles",
+            "difficulty": 4,
+            "healthPoints": 3,
+            "healValue": 1,
+            "charge": true
+        },
+        {
+            "id": 6,
+            "name": "Ardent Sloth",
+            "difficulty": 3,
+            "healthPoints": 1,
+            "defuseValue": 1,
+            "healValue": 1,
+            "charge": true
+        },
+        {
+            "id": 7,
+            "name": "Steamroller",
+            "difficulty": 5,
+            "healthPoints": 5,
+            "charge": true
+        },
+        {
+            "id": 8,
+            "name": "Jade",
+            "difficulty": 2,
+            "healthPoints": 1,
+            "defuseValue": 1,
+            "charge": true
+        },
+        {
+            "id": 9,
+            "name": "Fast Forward",
+            "difficulty": 5,
+            "healthPoints": 5,
+            "charge": true
+        },
+        {
+            "id": 10,
+            "name": "Vague",
+            "difficulty": 8,
+            "healthPoints": 6,
+            "healValue": 3,
+            "charge": true
+        },
+        {
+            "id": 11,
+            "name": "Aardvark",
+            "difficulty": 4,
+            "healthPoints": 4
+        },
+        {
+            "id": 12,
+            "name": "Apex",
+            "difficulty": 5,
+            "healthPoints": 3,
+            "defuseValue": 2,
+            "charge": true
+        },
+        {
+            "id": 13,
+            "name": "Sapphire",
+            "difficulty": 7,
+            "healthPoints": 4,
+            "healValue": 3
+        },
+        {
+            "id": 14,
+            "name": "Influenza",
+            "difficulty": 5,
+            "healthPoints": 4,
+            "defuseValue": 1
+        },
+        {
+            "id": 15,
+            "name": "Cast Iron",
+            "difficulty": 5,
+            "healthPoints": 5
+        },
+        {
+            "id": 16,
+            "name": "Blackback",
+            "difficulty": 6,
+            "healthPoints": 6
+        },
+        {
+            "id": 17,
+            "name": "Granite",
+            "difficulty": 8,
+            "healthPoints": 6,
+            "defuseValue": 3,
+            "healValue": 2,
+            "charge": true
+        },
+        {
+            "id": 18,
+            "name": "Hurricane",
+            "difficulty": 3,
+            "healthPoints": 2,
+            "healValue": 1,
+            "charge": true
+        },
+        {
+            "id": 19,
+            "name": "Vertigo",
+            "difficulty": 3,
+            "healthPoints": 2,
+            "defuseValue": 1,
+            "charge": true
+        },
+        {
+            "id": 20,
+            "name": "Hollyshock",
+            "difficulty": 5,
+            "healthPoints": 4,
+            "defuseValue": 1
+        },
+        {
+            "id": 21,
+            "name": "Firefly",
+            "difficulty": 1,
+            "healthPoints": 1
+        },
+        {
+            "id": 22,
+            "name": "Super Noodle",
+            "difficulty": 6,
+            "healthPoints": 4,
+            "healValue": 2
+        },
+        {
+            "id": 23,
+            "name": "Twilight",
+            "difficulty": 8,
+            "healthPoints": 5,
+            "defuseValue": 2,
+            "healValue": 1
+        },
+        {
+            "id": 24,
+            "name": "Tanzanite",
+            "difficulty": 5,
+            "healthPoints": 4,
+            "defuseValue": 1
+        },
+        {
+            "id": 25,
+            "name": "Hollyshock",
+            "difficulty": 1,
+            "healthPoints": 1,
+            "charge": true
+        },
+        {
+            "id": 26,
+            "name": "Atomic Blonde",
+            "difficulty": 6,
+            "healthPoints": 6
+        },
+        {
+            "id": 27,
+            "name": "Manta Ray",
+            "difficulty": 7,
+            "healthPoints": 6,
+            "healValue": 1,
+            "charge": true
+        },
+        {
+            "id": 28,
+            "name": "Tempest",
+            "difficulty": 3,
+            "healthPoints": 3
+        },
+        {
+            "id": 29,
+            "name": "Nutritious",
+            "difficulty": 8,
+            "healthPoints": 5,
+            "defuseValue": 3,
+            "charge": true
+        },
+        {
+            "id": 30,
+            "name": "Fighting Frito",
+            "difficulty": 7,
+            "healthPoints": 4,
+            "healValue": 3
+        },
+        {
+            "id": 31,
+            "name": "Waterfall",
+            "difficulty": 4,
+            "healthPoints": 4,
+            "charge": true
+        },
+        {
+            "id": 32,
+            "name": "Flying Falcon",
+            "difficulty": 8,
+            "healthPoints": 5,
+            "healValue": 3
+        },
+        {
+            "id": 33,
+            "name": "Ivory Wing",
+            "difficulty": 5,
+            "healthPoints": 4,
+            "healValue": 1
+        },
+        {
+            "id": 34,
+            "name": "Luminosity",
+            "difficulty": 4,
+            "healthPoints": 1,
+            "defuseValue": 3
+        },
+        {
+            "id": 35,
+            "name": "Fighting Frito",
+            "difficulty": 6,
+            "healthPoints": 3,
+            "healValue": 3
+        },
+        {
+            "id": 36,
+            "name": "Firefly",
+            "difficulty": 2,
+            "healthPoints": 1,
+            "healValue": 1
+        },
+        {
+            "id": 37,
+            "name": "Ant Acid",
+            "difficulty": 2,
+            "healthPoints": 2,
+            "charge": true
+        },
+        {
+            "id": 38,
+            "name": "Silver Shadow",
+            "difficulty": 7,
+            "healthPoints": 6,
+            "healValue": 1
+        },
+        {
+            "id": 39,
+            "name": "Twizzler",
+            "difficulty": 6,
+            "healthPoints": 5,
+            "defuseValue": 1
+        }
+    ],
+    "traps": [
+        {
+            "id": 0,
+            "name": "Deathly Axes",
+            "attackStrategy": "BASIC",
+            "damage": 4
+        },
+        {
+            "id": 1,
+            "name": "Deathly Anvils",
+            "attackStrategy": "MULTI",
+            "damage": 5
+        },
+        {
+            "id": 2,
+            "name": "Fireballs of Death",
+            "attackStrategy": "BASIC",
+            "damage": 2
+        },
+        {
+            "id": 3,
+            "name": "Freezing Axes",
+            "attackStrategy": "TARGETED",
+            "damage": 3,
+            "target": 3
+        },
+        {
+            "id": 4,
+            "name": "Thousand Hammers",
+            "attackStrategy": "TARGETED",
+            "damage": 1,
+            "target": 3
+        },
+        {
+            "id": 5,
+            "name": "Deathly Needles",
+            "attackStrategy": "BASIC",
+            "damage": 3
+        },
+        {
+            "id": 6,
+            "name": "Fireballs of Death",
+            "attackStrategy": "TARGETED",
+            "damage": 4,
+            "target": 1
+        },
+        {
+            "id": 7,
+            "name": "Crushing Needles",
+            "attackStrategy": "BASIC",
+            "damage": 2
+        },
+        {
+            "id": 8,
+            "name": "Streaking Needles",
+            "attackStrategy": "MULTI",
+            "damage": 4
+        },
+        {
+            "id": 9,
+            "name": "Thousand Darts",
+            "attackStrategy": "TARGETED",
+            "damage": 3,
+            "target": 1
+        },
+        {
+            "id": 10,
+            "name": "Magnets of Doom",
+            "attackStrategy": "TARGETED",
+            "damage": 1,
+            "target": 1
+        },
+        {
+            "id": 11,
+            "name": "Deathly Swords",
+            "attackStrategy": "MULTI",
+            "damage": 2
+        },
+        {
+            "id": 12,
+            "name": "Streaking Darts",
+            "attackStrategy": "TARGETED",
+            "damage": 2,
+            "target": 3
+        },
+        {
+            "id": 13,
+            "name": "Crushing Hammers",
+            "attackStrategy": "BASIC",
+            "damage": 5
+        },
+        {
+            "id": 14,
+            "name": "Freezing Claws",
+            "attackStrategy": "BASIC",
+            "damage": 1
+        },
+        {
+            "id": 15,
+            "name": "Deathly Needles",
+            "attackStrategy": "BASIC",
+            "damage": 4
+        },
+        {
+            "id": 16,
+            "name": "Whirling Anvils",
+            "attackStrategy": "BASIC",
+            "damage": 5
+        },
+        {
+            "id": 17,
+            "name": "Freezing Hammers",
+            "attackStrategy": "BASIC",
+            "damage": 2
+        },
+        {
+            "id": 18,
+            "name": "Freezing Hammers",
+            "attackStrategy": "MULTI",
+            "damage": 3
+        },
+        {
+            "id": 19,
+            "name": "Flaming Anvils",
+            "attackStrategy": "BASIC",
+            "damage": 5
+        },
+        {
+            "id": 20,
+            "name": "Deathly Claws",
+            "attackStrategy": "BASIC",
+            "damage": 4
+        },
+        {
+            "id": 21,
+            "name": "Streaking Hammers",
+            "attackStrategy": "MULTI",
+            "damage": 4
+        },
+        {
+            "id": 22,
+            "name": "Pit of Death",
+            "attackStrategy": "TARGETED",
+            "damage": 3,
+            "target": 3
+        },
+        {
+            "id": 23,
+            "name": "Deathly Claws",
+            "attackStrategy": "TARGETED",
+            "damage": 4,
+            "target": 1
+        },
+        {
+            "id": 24,
+            "name": "Fireballs of Despair",
+            "attackStrategy": "MULTI",
+            "damage": 2
+        },
+        {
+            "id": 25,
+            "name": "Crushing Spears",
+            "attackStrategy": "TARGETED",
+            "damage": 1,
+            "target": 1
+        },
+        {
+            "id": 26,
+            "name": "Crushing Hammers",
+            "attackStrategy": "BASIC",
+            "damage": 1
+        },
+        {
+            "id": 27,
+            "name": "Fireballs of Despair",
+            "attackStrategy": "MULTI",
+            "damage": 1
+        },
+        {
+            "id": 28,
+            "name": "Whirling Hammers",
+            "attackStrategy": "MULTI",
+            "damage": 5
+        },
+        {
+            "id": 29,
+            "name": "Deathly Anvils",
+            "attackStrategy": "BASIC",
+            "damage": 5
+        },
+        {
+            "id": 30,
+            "name": "Spikes of Death",
+            "attackStrategy": "TARGETED",
+            "damage": 4,
+            "target": 3
+        },
+        {
+            "id": 31,
+            "name": "Freezing Hammers",
+            "attackStrategy": "BASIC",
+            "damage": 2
+        },
+        {
+            "id": 32,
+            "name": "Freezing Swords",
+            "attackStrategy": "BASIC",
+            "damage": 3
+        },
+        {
+            "id": 33,
+            "name": "Magnets of Despair",
+            "attackStrategy": "MULTI",
+            "damage": 5
+        },
+        {
+            "id": 34,
+            "name": "Spikes of Death",
+            "attackStrategy": "MULTI",
+            "damage": 2
+        },
+        {
+            "id": 35,
+            "name": "Spikes of Doom",
+            "attackStrategy": "TARGETED",
+            "damage": 5,
+            "target": 3
+        },
+        {
+            "id": 36,
+            "name": "Freezing Claws",
+            "attackStrategy": "MULTI",
+            "damage": 5
+        },
+        {
+            "id": 37,
+            "name": "Whirling Anvils",
+            "attackStrategy": "MULTI",
+            "damage": 2
+        },
+        {
+            "id": 38,
+            "name": "Flying Hammers",
+            "attackStrategy": "TARGETED",
+            "damage": 3,
+            "target": 3
+        },
+        {
+            "id": 39,
+            "name": "Deathly Axes",
+            "attackStrategy": "BASIC",
+            "damage": 3
+        },
+        {
+            "id": 40,
+            "name": "Flaming Swords",
+            "attackStrategy": "MULTI",
+            "damage": 3
+        },
+        {
+            "id": 41,
+            "name": "Crushing Hammers",
+            "attackStrategy": "TARGETED",
+            "damage": 3,
+            "target": 1
+        },
+        {
+            "id": 42,
+            "name": "Pit of Despair",
+            "attackStrategy": "TARGETED",
+            "damage": 1,
+            "target": 3
+        },
+        {
+            "id": 43,
+            "name": "Thousand Claws",
+            "attackStrategy": "MULTI",
+            "damage": 2
+        },
+        {
+            "id": 44,
+            "name": "Thousand Claws",
+            "attackStrategy": "BASIC",
+            "damage": 1
+        },
+        {
+            "id": 45,
+            "name": "Whirling Needles",
+            "attackStrategy": "TARGETED",
+            "damage": 4,
+            "target": 2
+        },
+        {
+            "id": 46,
+            "name": "Freezing Swords",
+            "attackStrategy": "BASIC",
+            "damage": 2
+        },
+        {
+            "id": 47,
+            "name": "Freezing Anvils",
+            "attackStrategy": "BASIC",
+            "damage": 1
+        },
+        {
+            "id": 48,
+            "name": "Deathly Axes",
+            "attackStrategy": "BASIC",
+            "damage": 4
+        }
+    ],
+    "rooms": [
+        {
+            "id": 11,
+            "name": "Kitchen",
+            "restriction": "LOWER_HALF",
+            "activation": 4,
+            "imps": 3
+        },
+        {
+            "id": 12,
+            "name": "Cellar",
+            "restriction": "OUTER_RING",
+            "activation": 5,
+            "imps": 3
+        },
+        {
+            "id": 13,
+            "name": "Basement",
+            "restriction": "UPPER_HALF",
+            "activation": 3,
+            "gold": 4,
+            "food": 2,
+            "imps": 1
+        },
+        {
+            "id": 14,
+            "name": "Loft",
+            "restriction": "LOWER_HALF",
+            "activation": 5,
+            "gold": 3
+        },
+        {
+            "id": 15,
+            "name": "Living Room",
+            "restriction": "UPPER_HALF",
+            "activation": 2,
+            "gold": 3
+        },
+        {
+            "id": 16,
+            "name": "Torture Chamber",
+            "restriction": "OUTER_RING",
+            "activation": 4,
+            "gold": 3
+        },
+        {
+            "id": 17,
+            "name": "Basement",
+            "restriction": "LOWER_HALF",
+            "activation": 3,
+            "niceness": 4
+        },
+        {
+            "id": 18,
+            "name": "Prison Cell",
+            "restriction": "INNER_RING",
+            "activation": 6,
+            "gold": 1,
+            "imps": 2
+        },
+        {
+            "id": 19,
+            "name": "Nursery",
+            "restriction": "UPPER_HALF",
+            "activation": 3,
+            "gold": 2,
+            "food": 2,
+            "imps": 2
+        },
+        {
+            "id": 20,
+            "name": "Dining Room",
+            "restriction": "LOWER_HALF",
+            "activation": 1,
+            "gold": 3,
+            "imps": 4
+        },
+        {
+            "id": 21,
+            "name": "Foyer",
+            "restriction": "OUTER_RING",
+            "activation": 2,
+            "food": 4
+        },
+        {
+            "id": 22,
+            "name": "Attic",
+            "restriction": "INNER_RING",
+            "activation": 4,
+            "food": 4,
+            "niceness": 3
+        },
+        {
+            "id": 23,
+            "name": "Basement",
+            "restriction": "OUTER_RING",
+            "activation": 4
+        },
+        {
+            "id": 24,
+            "name": "Living Room",
+            "restriction": "UPPER_HALF",
+            "activation": 4
+        },
+        {
+            "id": 25,
+            "name": "Bathroom",
+            "restriction": "LOWER_HALF",
+            "activation": 4,
+            "gold": 1
+        },
+        {
+            "id": 26,
+            "name": "Basement",
+            "restriction": "LOWER_HALF",
+            "activation": 6,
+            "food": 4
+        },
+        {
+            "id": 27,
+            "name": "Wooden Crate",
+            "restriction": "LOWER_HALF",
+            "activation": 4,
+            "gold": 2,
+            "food": 1,
+            "niceness": 3
+        },
+        {
+            "id": 28,
+            "name": "Cubicle",
+            "restriction": "UPPER_HALF",
+            "activation": 2
+        },
+        {
+            "id": 29,
+            "name": "Cellar",
+            "restriction": "LOWER_HALF",
+            "activation": 6,
+            "gold": 1,
+            "food": 3,
+            "niceness": 2,
+            "imps": 3
+        },
+        {
+            "id": 30,
+            "name": "Torture Chamber",
+            "restriction": "INNER_RING",
+            "activation": 2,
+            "gold": 4,
+            "niceness": 4
+        },
+        {
+            "id": 31,
+            "name": "Bedroom",
+            "restriction": "OUTER_RING",
+            "activation": 5,
+            "food": 4
+        },
+        {
+            "id": 32,
+            "name": "Laundry Room",
+            "restriction": "OUTER_RING",
+            "activation": 1
+        },
+        {
+            "id": 0,
+            "name": "Wooden Crate",
+            "restriction": "LOWER_HALF",
+            "activation": 3
+        }
+    ]
+}

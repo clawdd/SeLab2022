@@ -1,0 +1,13 @@
+.idea/
+.gradle/
+build/
+out/
+gradle/
+docs/
+libs/
+bin/
+
+gradlew
+gradlew.bat
+
+.DS_Store

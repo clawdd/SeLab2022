@@ -1,0 +1,595 @@
+{
+    "maxPlayers": 6,
+    "years": 1,
+    "dungeonSideLength": 7,
+    "initialFood": 2,
+    "initialGold": 1,
+    "initialImps": 0,
+    "initialEvilness": 10,
+    "monsters": [
+        {
+            "id": 0,
+            "name": "Pooly, The Young Monkey",
+            "damage": 2,
+            "attackStrategy": "TARGETED",
+            "hunger": 4
+        },
+        {
+            "id": 1,
+            "name": "Goolops, The Young Pest",
+            "damage": 1,
+            "attackStrategy": "MULTI",
+            "hunger": 1,
+            "evilness": 4
+        },
+        {
+            "id": 2,
+            "name": "Ghostling, The Needy Mutant",
+            "damage": 5,
+            "attackStrategy": "MULTI",
+            "hunger": 2,
+            "evilness": 2
+        },
+        {
+            "id": 3,
+            "name": "Vaporwing, The Venom Man",
+            "damage": 4,
+            "attackStrategy": "BASIC",
+            "hunger": 4,
+            "evilness": 3
+        },
+        {
+            "id": 4,
+            "name": "Soilling, The Rotten Dog",
+            "damage": 2,
+            "attackStrategy": "TARGETED",
+            "hunger": 4,
+            "evilness": 1
+        },
+        {
+            "id": 5,
+            "name": "Brinebeast, The Needy Monster",
+            "damage": 5,
+            "attackStrategy": "TARGETED",
+            "hunger": 2,
+            "evilness": 1
+        },
+        {
+            "id": 6,
+            "name": "Gloomboo, The Furry Pest",
+            "damage": 1,
+            "attackStrategy": "MULTI",
+            "hunger": 1,
+            "evilness": 2
+        },
+        {
+            "id": 7,
+            "name": "Ashling, The Night Alien",
+            "damage": 5,
+            "attackStrategy": "MULTI",
+            "hunger": 1,
+            "evilness": 2
+        },
+        {
+            "id": 8,
+            "name": "Curseeyes, The Rotten Hound",
+            "damage": 5,
+            "attackStrategy": "BASIC",
+            "hunger": 4,
+            "evilness": 3
+        },
+        {
+            "id": 9,
+            "name": "Goolops, The Young Pest",
+            "damage": 4,
+            "attackStrategy": "TARGETED",
+            "evilness": 2
+        },
+        {
+            "id": 10,
+            "name": "Webword, The Big Bad Man",
+            "damage": 2,
+            "attackStrategy": "BASIC",
+            "hunger": 4,
+            "evilness": 3
+        },
+        {
+            "id": 11,
+            "name": "Grossbug, The Rotten Gorilla",
+            "damage": 1,
+            "attackStrategy": "MULTI",
+            "hunger": 3,
+            "evilness": 2
+        },
+        {
+            "id": 12,
+            "name": "Grossbug, The Quiet Monster",
+            "damage": 4,
+            "attackStrategy": "BASIC",
+            "hunger": 2,
+            "evilness": 4
+        },
+        {
+            "id": 13,
+            "name": "Brinebeast, The Needy Monster",
+            "damage": 5,
+            "attackStrategy": "BASIC",
+            "evilness": 4
+        },
+        {
+            "id": 14,
+            "name": "Ghostman, The Quiet Tumor",
+            "damage": 4,
+            "attackStrategy": "MULTI",
+            "hunger": 2,
+            "evilness": 2
+        },
+        {
+            "id": 15,
+            "name": "Webcat, The Primeval Feline",
+            "damage": 1,
+            "attackStrategy": "MULTI",
+            "hunger": 1,
+            "evilness": 2
+        },
+        {
+            "id": 16,
+            "name": "Decayfigure, The Big Bad Critter",
+            "damage": 2,
+            "attackStrategy": "MULTI",
+            "hunger": 2,
+            "evilness": 4
+        },
+        {
+            "id": 17,
+            "name": "Decayeyes, The Primeval Monster",
+            "damage": 2,
+            "attackStrategy": "MULTI",
+            "evilness": 3
+        }
+    ],
+    "adventurers": [
+        {
+            "id": 0,
+            "name": "Hurricane",
+            "difficulty": 4,
+            "healthPoints": 3,
+            "healValue": 1
+        },
+        {
+            "id": 1,
+            "name": "Nutritious",
+            "difficulty": 8,
+            "healthPoints": 5,
+            "defuseValue": 3,
+            "healValue": 1
+        },
+        {
+            "id": 2,
+            "name": "Blaze",
+            "difficulty": 6,
+            "healthPoints": 6,
+            "charge": true
+        },
+        {
+            "id": 3,
+            "name": "Bonfire",
+            "difficulty": 3,
+            "healthPoints": 1,
+            "defuseValue": 1,
+            "healValue": 1
+        },
+        {
+            "id": 4,
+            "name": "Lemon Lime",
+            "difficulty": 6,
+            "healthPoints": 3,
+            "defuseValue": 3
+        },
+        {
+            "id": 5,
+            "name": "Monsoon",
+            "difficulty": 5,
+            "healthPoints": 1,
+            "defuseValue": 3,
+            "healValue": 1,
+            "charge": true
+        },
+        {
+            "id": 6,
+            "name": "Sasquatch",
+            "difficulty": 7,
+            "healthPoints": 2,
+            "defuseValue": 3,
+            "healValue": 2
+        },
+        {
+            "id": 7,
+            "name": "Mystify",
+            "difficulty": 7,
+            "healthPoints": 4,
+            "healValue": 3,
+            "charge": true
+        },
+        {
+            "id": 8,
+            "name": "Aardvark",
+            "difficulty": 7,
+            "healthPoints": 4,
+            "defuseValue": 3
+        },
+        {
+            "id": 9,
+            "name": "Leviathan",
+            "difficulty": 2,
+            "healthPoints": 2
+        },
+        {
+            "id": 10,
+            "name": "Monsoon",
+            "difficulty": 2,
+            "healthPoints": 2,
+            "charge": true
+        },
+        {
+            "id": 11,
+            "name": "Lemon Lime",
+            "difficulty": 8,
+            "healthPoints": 6,
+            "healValue": 3
+        },
+        {
+            "id": 12,
+            "name": "Scorch",
+            "difficulty": 7,
+            "healthPoints": 4,
+            "defuseValue": 3
+        },
+        {
+            "id": 13,
+            "name": "Tapestry",
+            "difficulty": 4,
+            "healthPoints": 2,
+            "defuseValue": 2
+        },
+        {
+            "id": 14,
+            "name": "Metal Man",
+            "difficulty": 6,
+            "healthPoints": 4,
+            "defuseValue": 2
+        },
+        {
+            "id": 15,
+            "name": "Super Pooper",
+            "difficulty": 3,
+            "healthPoints": 3,
+            "charge": true
+        },
+        {
+            "id": 16,
+            "name": "Highlight",
+            "difficulty": 6,
+            "healthPoints": 6
+        },
+        {
+            "id": 17,
+            "name": "Steamroller",
+            "difficulty": 7,
+            "healthPoints": 5,
+            "healValue": 2,
+            "charge": true
+        },
+        {
+            "id": 18,
+            "name": "Mystify",
+            "difficulty": 4,
+            "healthPoints": 1,
+            "defuseValue": 3
+        },
+        {
+            "id": 19,
+            "name": "Night Watch",
+            "difficulty": 8,
+            "healthPoints": 3,
+            "defuseValue": 3,
+            "healValue": 2
+        }
+    ],
+    "traps": [
+        {
+            "id": 0,
+            "name": "Spikes of Doom",
+            "attackStrategy": "TARGETED",
+            "damage": 4,
+            "target": 1
+        },
+        {
+            "id": 1,
+            "name": "Whirling Needles",
+            "attackStrategy": "TARGETED",
+            "damage": 4,
+            "target": 3
+        },
+        {
+            "id": 2,
+            "name": "Deathly Axes",
+            "attackStrategy": "TARGETED",
+            "damage": 2,
+            "target": 1
+        },
+        {
+            "id": 3,
+            "name": "Streaking Darts",
+            "attackStrategy": "MULTI",
+            "damage": 4
+        },
+        {
+            "id": 4,
+            "name": "Flaming Anvils",
+            "attackStrategy": "MULTI",
+            "damage": 2
+        },
+        {
+            "id": 5,
+            "name": "Wall of Despair",
+            "attackStrategy": "MULTI",
+            "damage": 3
+        },
+        {
+            "id": 6,
+            "name": "Spikes of Doom",
+            "attackStrategy": "BASIC",
+            "damage": 2
+        },
+        {
+            "id": 7,
+            "name": "Freezing Swords",
+            "attackStrategy": "TARGETED",
+            "damage": 4,
+            "target": 2
+        },
+        {
+            "id": 8,
+            "name": "Freezing Anvils",
+            "attackStrategy": "BASIC",
+            "damage": 2
+        },
+        {
+            "id": 9,
+            "name": "Flaming Anvils",
+            "attackStrategy": "BASIC",
+            "damage": 3
+        },
+        {
+            "id": 10,
+            "name": "Whirling Needles",
+            "attackStrategy": "BASIC",
+            "damage": 1
+        },
+        {
+            "id": 11,
+            "name": "Flaming Spears",
+            "attackStrategy": "BASIC",
+            "damage": 2
+        },
+        {
+            "id": 12,
+            "name": "Deathly Spikes",
+            "attackStrategy": "MULTI",
+            "damage": 1
+        },
+        {
+            "id": 13,
+            "name": "Deathly Anvils",
+            "attackStrategy": "MULTI",
+            "damage": 3
+        },
+        {
+            "id": 14,
+            "name": "Flying Spears",
+            "attackStrategy": "BASIC",
+            "damage": 2
+        },
+        {
+            "id": 15,
+            "name": "Thousand Hammers",
+            "attackStrategy": "MULTI",
+            "damage": 1
+        },
+        {
+            "id": 16,
+            "name": "Deathly Axes",
+            "attackStrategy": "MULTI",
+            "damage": 5
+        },
+        {
+            "id": 17,
+            "name": "Pit of Death",
+            "attackStrategy": "TARGETED",
+            "damage": 5,
+            "target": 2
+        },
+        {
+            "id": 18,
+            "name": "Spikes of Doom",
+            "attackStrategy": "BASIC",
+            "damage": 5
+        },
+        {
+            "id": 19,
+            "name": "Flying Spears",
+            "attackStrategy": "TARGETED",
+            "damage": 2,
+            "target": 1
+        },
+        {
+            "id": 20,
+            "name": "Streaking Spears",
+            "attackStrategy": "BASIC",
+            "damage": 1
+        },
+        {
+            "id": 21,
+            "name": "Magnets of Despair",
+            "attackStrategy": "MULTI",
+            "damage": 4
+        },
+        {
+            "id": 22,
+            "name": "Deathly Needles",
+            "attackStrategy": "BASIC",
+            "damage": 1
+        },
+        {
+            "id": 23,
+            "name": "Piercing Swords",
+            "attackStrategy": "TARGETED",
+            "damage": 1,
+            "target": 1
+        },
+        {
+            "id": 24,
+            "name": "Flaming Darts",
+            "attackStrategy": "TARGETED",
+            "damage": 4,
+            "target": 2
+        }
+    ],
+    "rooms": [
+        {
+            "id": 0,
+            "name": "Torture Chamber",
+            "restriction": "LOWER_HALF",
+            "activation": 4,
+            "gold": 2,
+            "niceness": 1,
+            "imps": 2
+        },
+        {
+            "id": 1,
+            "name": "Basement",
+            "restriction": "INNER_RING",
+            "activation": 3,
+            "imps": 1
+        },
+        {
+            "id": 2,
+            "name": "Cubicle",
+            "restriction": "LOWER_HALF",
+            "activation": 5,
+            "food": 1,
+            "niceness": 2,
+            "imps": 4
+        },
+        {
+            "id": 3,
+            "name": "Prison Cell",
+            "restriction": "OUTER_RING",
+            "activation": 1,
+            "imps": 2
+        },
+        {
+            "id": 4,
+            "name": "Dining Room",
+            "restriction": "OUTER_RING",
+            "activation": 4
+        },
+        {
+            "id": 5,
+            "name": "Cellar",
+            "restriction": "OUTER_RING",
+            "activation": 4,
+            "food": 3,
+            "niceness": 1
+        },
+        {
+            "id": 6,
+            "name": "Basement",
+            "restriction": "UPPER_HALF",
+            "activation": 2,
+            "food": 1,
+            "imps": 4
+        },
+        {
+            "id": 7,
+            "name": "Laundry Room",
+            "restriction": "UPPER_HALF",
+            "activation": 4,
+            "niceness": 3,
+            "imps": 4
+        },
+        {
+            "id": 8,
+            "name": "Attic",
+            "restriction": "INNER_RING",
+            "activation": 2
+        },
+        {
+            "id": 9,
+            "name": "Theatre",
+            "restriction": "UPPER_HALF",
+            "activation": 4,
+            "niceness": 4
+        },
+        {
+            "id": 10,
+            "name": "Dining Room",
+            "restriction": "INNER_RING",
+            "activation": 5,
+            "gold": 2,
+            "food": 4,
+            "niceness": 2,
+            "imps": 4
+        },
+        {
+            "id": 11,
+            "name": "Storage Chamber",
+            "restriction": "OUTER_RING",
+            "activation": 2,
+            "niceness": 3,
+            "imps": 1
+        },
+        {
+            "id": 12,
+            "name": "Wooden Crate",
+            "restriction": "OUTER_RING",
+            "activation": 4,
+            "gold": 3,
+            "niceness": 4,
+            "imps": 3
+        },
+        {
+            "id": 13,
+            "name": "Basement",
+            "restriction": "OUTER_RING",
+            "activation": 3,
+            "gold": 1,
+            "food": 1,
+            "imps": 2
+        },
+        {
+            "id": 14,
+            "name": "Loft",
+            "restriction": "UPPER_HALF",
+            "activation": 2,
+            "gold": 1,
+            "food": 4,
+            "niceness": 1
+        },
+        {
+            "id": 15,
+            "name": "Bathroom",
+            "restriction": "OUTER_RING",
+            "activation": 2
+        },
+        {
+            "id": 16,
+            "name": "Bedroom",
+            "restriction": "UPPER_HALF",
+            "activation": 2,
+            "niceness": 1,
+            "imps": 1
+        }
+    ]
+}
